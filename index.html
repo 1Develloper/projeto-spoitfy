@@ -15,38 +15,55 @@
 </head>
 
 <body>
-    <header class="bg-warning">
+    <header class="navbar-transparante">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light ">
+            <nav class="navbar navbar-expand-lg ">
                 <a href="index.html" class="navbar-brand"><img src="css/img/spotify.svg" width="142"></a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars text-white"></i></span>
+                    <span><i class="fas fa-bars fa-lg text-white"></i></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse opaticity" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Premium</a>
+                            <a class="nav-link " href="#">Premium</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ajuda</a>
+                            <a class="nav-link " href="#">Ajuda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Baixar</a>
+                            <a class="nav-link " href="#">Baixar</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Inscrever-se</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inscrever-se</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Entrar</a>
+                            <a class="nav-link " href="#">Entrar</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-    </header>
+    </header><!--Fim cabecalho-->
+
+    <section id="home" class="d-flex"><!--Section Home-->
+        <div class="container align-self-center text-white">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="cow-md-12 ">
+                    <h1 class="response-width">Música para todos.</h1>
+                    <a href="#" class="btn  btn-success btn-lg">Aproveite o Spotify Free</a>
+                    <a href="#" class="btn  btn-light btn-lg">Obter Fpotify Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

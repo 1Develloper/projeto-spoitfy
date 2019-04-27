@@ -1,0 +1,62 @@
+/* Layout */
+body {
+    background: url(img/capa.png), url(img/ruido.png), linear-gradient(90deg, rgba(203,20,125,1) 0%, rgba(89,0,255,1) 100%); background-attachment: fixed;    
+}
+html, body, #home {
+    height: 90%;
+}
+
+/* Nav */
+.navbar-transparante {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.63);
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(22, 240, 156);
+}
+
+.divisor  {
+    width: 1px;
+    background-color: white;
+    margin: 12px 15px;
+}
+
+/* Tipografia */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .response-width  {
+        font-size: 4em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .response-width  {
+        font-size: 4em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .response-width  {
+        font-size: 5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .response-width  { 
+        font-size: 6em;
+    }
+}
